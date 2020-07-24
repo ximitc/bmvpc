@@ -4,7 +4,6 @@
     "type": "library",
     "homepage": "https://github.com/ximitc/bmvpc",
     "license": "Apache-2.0",
-    "minimum-stability": "dev",
     "authors": [
         {
             "name": "test",
@@ -14,7 +13,7 @@
         }
     ],
     "require": {
-        "niubi/common": "@dev"
+        "niubi/common": "1.0.0"
     },
     "autoload": {
         "psr-4": {
