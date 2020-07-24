@@ -1,0 +1,23 @@
+{
+    "name": "niubi/bmvpc",
+    "description": "TencentCloudApi php sdk bmvpc",
+    "type": "library",
+    "homepage": "https://github.com/ximitc/bmvpc",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "test",
+            "email": "test@tencent.com",
+            "homepage": "https://github.com/ximitc/bmvpc",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "niubi/common": "@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "TencentCloud\\": "./src/TencentCloud"
+        }
+    }
+}
